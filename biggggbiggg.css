@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	line-height: 1.35;
+	text-align: center;
+	
+	width: 55%;
+	color: #1F1F1F;
+}
+
+
+
+
+
+.pic {
+	width: auto;
+	height: auto;
+	margin-align: auto;
+} 
+.einleitung {
+	font-weight: bold;
+	text-align: justify;
+	}
+.bildunterschrift {
+	font-weight: lighter;
+	font-size: 12px;
+	text-align: left;
+}
+.fließtext {
+	text-align: justify;
+}
+h1 {
+	text-align: left;
+}
+.impressum {
+	text-align: left;
+	font-size: 14px;
+}
+.imph {
+	font-weight: bold;
+}
+.box {
+
+	width: 100px;
+	height: 100px;
+}
+footer {
+	text-align: left;
+	font-size: 14px;
+	background-color: #DDDDDD;
+	flex-shrink: 0; 
+	background-size: 150%;
+	border-bottom: solid #DDDDDD 50px; 
+	border-left: solid #DDDDDD +800px;
+	margin-left: -800px;
+	border-bottom: solid #DDDDDD 300px;
+	margin-right: -800px;
+}
+.content {
+  flex: 1 0 auto;
+}
+
